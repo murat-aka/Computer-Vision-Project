@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/NVPACK/eclipse
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/NVPACK/eclipse/plugins/org.junit_4.11.0.v201303080030/
+org.eclipse.jdt.core.classpathVariable.JUNIT_SRC_HOME=C\:/NVPACK/eclipse/plugins/org.junit.source_4.11.0.v201303080030.jar
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled

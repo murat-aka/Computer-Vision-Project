@@ -1,0 +1,8 @@
+14:33:45 **** Auto Build of configuration Default for project OpenCV Sample - face-detection ****
+"C:\\NVPACK\\android-ndk-r9b\\ndk-build.cmd" 
+Android NDK: WARNING: APP_PLATFORM android-14 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+C:/NVPACK/android-ndk-r9b/build/core/add-application.mk:171: *** Android NDK: Aborting...    .  Stop.
+Android NDK: Your APP_BUILD_SCRIPT points to an unknown file: ./jni/Android.mk    
+
+14:33:45 Build Finished (took 139ms)
+

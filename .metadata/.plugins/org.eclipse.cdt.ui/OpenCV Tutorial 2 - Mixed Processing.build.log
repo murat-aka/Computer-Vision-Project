@@ -1,0 +1,8 @@
+18:06:47 **** Incremental Build of configuration Default for project OpenCV Tutorial 2 - Mixed Processing ****
+"C:\\NVPACK\\android-ndk-r9b\\ndk-build.cmd" 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+C:/NVPACK/android-ndk-r9b/build/core/add-application.mk:171: *** Android NDK: Aborting...    .  Stop.
+Android NDK: Your APP_BUILD_SCRIPT points to an unknown file: ./jni/Android.mk    
+
+18:06:47 Build Finished (took 131ms)
+

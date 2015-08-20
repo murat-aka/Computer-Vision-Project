@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.interfaceclass.MainActivity" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:columnCount="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/guide"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:text="Guide Navigate" />
+
+        <Button
+            android:id="@+id/dance"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="right|top"
+            android:layout_row="0"
+            android:text="Dance" />
+
+        <Button
+            android:id="@+id/color"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="0"
+            android:onClick="color"
+            android:text="Color Detect" />
+
+        <Button
+            android:id="@+id/face"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_row="0"
+            android:onClick="onclick"
+            android:text="Face Detect" />
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="left|center_vertical"
+            android:layout_row="0"
+            android:text="Read Story" />
+
+        <Button
+            android:id="@+id/post"
+            android:layout_width="84dp"
+            android:layout_height="63dp"
+            android:layout_column="0"
+            android:layout_gravity="right|center_vertical"
+            android:layout_row="0"
+            android:text="Check Post" />
+
+    </GridLayout>
+
+</RelativeLayout>

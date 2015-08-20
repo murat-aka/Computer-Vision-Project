@@ -1,0 +1,16 @@
+17:59:06 **** Auto Build of configuration Default for project OpenCV Sample - native-activity ****
+"C:\\NVPACK\\android-ndk-r9b\\ndk-build.cmd" 
+Android NDK: WARNING:jni/Android.mk:native_activity: non-system libraries in linker flags: -lopencv_java    
+Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+Android NDK:     current module    
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.6] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi-v7a] SharedLibrary  : libnative_activity.so
+      0 [main] ld 30920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+ld: this linker was not configured to use sysroots
+make.exe: *** [obj/local/armeabi-v7a/libnative_activity.so] Error 1
+
+17:59:06 Build Finished (took 425ms)
+

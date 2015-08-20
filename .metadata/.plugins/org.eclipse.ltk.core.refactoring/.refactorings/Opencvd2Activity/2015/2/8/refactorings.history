@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;raw&apos; to &apos;MuratColorDetection&apos;&#x0D;&#x0A;- Original project: &apos;Opencvd2Activity&apos;&#x0D;&#x0A;- Destination element: &apos;MuratColorDetection&apos;&#x0D;&#x0A;- Original element: &apos;raw&apos;" description="Copy folder" destination="=MuratColorDetection" element1="res/raw" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1424438323437" units="0" version="1.0"/>
+</session>

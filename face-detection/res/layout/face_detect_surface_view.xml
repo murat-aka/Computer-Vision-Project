@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:id="@+id/LinearLayout">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/fd_activity_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.97" />
+    
+    <LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:text="hello mate" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="482dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+ <LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_id2"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:text="hello mate" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="482dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+</LinearLayout>
